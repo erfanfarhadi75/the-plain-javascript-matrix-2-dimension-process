@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The plain vanilla ja challenge</title>
+    <script src="path/to/vanilla.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<main class="matrix">
+    <h1>
+        1-A plain vanilla JS code-challenge
+    </h1>
+    <input accept="*.cvs" placeholder="please select a cvs file" id='cvsInput' type="file">
+
+    <div>
+
+        <div class="matrix__original">
+             <span>
+                original cvs
+            </span>
+            <div class="matrix__textarea">
+            <textarea cols="30" id="notProcessedCVSTextarea" rows="10">
+
+            </textarea>
+
+                <div>
+                    <small>
+                        example input
+                    </small></br>
+                    1,5,6 70</br>
+                    50,6,5,9</br>
+                    6 90 8,4
+                </div>
+            </div>
+        </div>
+        <div class="matrix__processed">
+             <span>
+                processed cvs
+            </span>
+            <div class="matrix__textarea">
+                <textarea cols="30" id="processedCVSTextarea" rows="10">
+
+                </textarea>
+                <div>
+                    <small>
+                        example output
+                    </small></br>
+                    1,5,6 7</br>
+                    22,6,5,9</br>
+                    6 9 8,4
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
